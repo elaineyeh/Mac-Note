@@ -13,7 +13,7 @@ Step5. 確認安裝
 ```  
 
 ## Step1. 安裝 Xcode
-上 App Store 下載 Xcode
+上 App Store 下載 Xcode
 
 然後到 Terminal 輸入來安裝 Xcode command line tool  
 
@@ -96,7 +96,7 @@ control + x + c：關掉 emacs
 
 會看到 **/usr/local/bin/python**  
 
-再看看 Python3  
+再看看 Python3  
 `which python3` 
 
 會看到 **/usr/local/bin/python3**  
