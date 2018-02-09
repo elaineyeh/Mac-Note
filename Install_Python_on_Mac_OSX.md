@@ -3,7 +3,7 @@
 ```
 Step1. 安裝 Xcode
 
-Step2. 安裝套件管理 Homebrew
+Step2. 安裝套件管理 Homebrew
 
 Step3. 安裝 Python
 
@@ -20,13 +20,13 @@ Step5. 確認安裝
 下以下指令  
 `xcode-select --install`  
 
-## Step2. 安裝套件管理 Homebrew  
+## Step2. 安裝套件管理 Homebrew  
 下以下指令  
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```  
 
-```
+```
 Press RETURN to continue or any other key to abort
 
 請按 Enter
@@ -57,7 +57,7 @@ Press RETURN to continue or any other key to abort
 就可以看到剛剛安裝的 Python & Python3 了  
 
 ## Step4. 設定路徑 $PATH  
-路徑就是當你下指令時電腦知道要去哪裡找相關套件，而指令就是程式，他去幫你找"路徑"下有符合的第一個程式執行  
+路徑就是當你下指令時電腦知道要去哪裡找相關套件，而指令就是程式，他去幫你找"路徑"下有符合的第一個程式執行  
 
 下以下指令  
 `echo $PATH`  
@@ -67,7 +67,7 @@ Press RETURN to continue or any other key to abort
 
 分號就是分隔的意思，所以當你在 terminal 裡面輸入 brew 時系統就會開始從 /usr/bin 找起，如果找不到就往下一個 /bin 去搜尋，以此類推  
 
-因此為了避免跟系統本身的 Python 打架，我們要取得管理員權限用 emacs 編輯一下路徑  
+因此為了避免跟系統本身的 Python 打架，我們要取得管理員權限用 emacs 編輯一下路徑  
 `sudo emacs /etc/paths`   
 
 把 /usr/local/bin 移到上面去  
