@@ -10,7 +10,8 @@
 
 [Step5. 確認安裝](#five)
 
-<h2 id="tag-xcode"> Step1. 安裝 Xcode </h2>
+<h2 id="tag-xcode"> Step1. 安裝 Xcode </h2>
+
 上 App Store 下載 Xcode
 
 然後到 Terminal 輸入來安裝 Xcode command line tool  
