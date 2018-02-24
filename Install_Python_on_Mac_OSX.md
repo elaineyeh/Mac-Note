@@ -1,18 +1,16 @@
 # How to install Python on Mac OSX
 
-```
-Step1. 安裝 Xcode
+[Step1. 安裝 Xcode](#tag-xcode)
 
-Step2. 安裝套件管理 Homebrew
+[Step2. 安裝套件管理 Homebrew](#two)
 
-Step3. 安裝 Python
+[Step3. 安裝 Python](#three)
 
-Step4. 設定路徑 $PATH
+[Step4. 設定路徑 $PATH](#four)
 
-Step5. 確認安裝
-```  
+[Step5. 確認安裝](#five)
 
-## Step1. 安裝 Xcode
+<h2 id="tag-xcode"> Step1. 安裝 Xcode </h2>
 上 App Store 下載 Xcode
 
 然後到 Terminal 輸入來安裝 Xcode command line tool  
@@ -20,7 +18,8 @@ Step5. 確認安裝
 下以下指令  
 `xcode-select --install`  
 
-## Step2. 安裝套件管理 Homebrew  
+<h2 id="two"> Step2. 安裝套件管理 Homebrew </h2>
+
 下以下指令  
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -37,7 +36,7 @@ Press RETURN to continue or any other key to abort
 
 若出現 **Your system is ready to brew.** 則表示安裝完成  
 
-## Step3. 安裝 Python  
+<h2 id="three"> Step3. 安裝 Python </h2>
 ### 利用 Homebrew 搜尋 Python  
 `brew search python`  
 
@@ -56,7 +55,7 @@ Press RETURN to continue or any other key to abort
 
 就可以看到剛剛安裝的 Python & Python3 了  
 
-## Step4. 設定路徑 $PATH  
+<h2 id="four"> Step4. 設定路徑 $PATH </h2>
 路徑就是當你下指令時電腦知道要去哪裡找相關套件，而指令就是程式，他去幫你找"路徑"下有符合的第一個程式執行  
 
 下以下指令  
@@ -90,7 +89,7 @@ control + x + c：關掉 emacs
 
 重新開啟 Terminal 就好了  
 
-## Step5. 確認安裝  
+<h2 id="five"> Step5. 確認安裝  </h2>
 接下來確認是不是讀到我們安裝的 Python  
 `which python`  
 
