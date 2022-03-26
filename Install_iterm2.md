@@ -78,3 +78,6 @@ ZSH_THEME="THEME_YOU_LIKE"
 ```shell
 $ exec $SHELL
 ```
+
+## Reference
+[Mac終端機 (Terminal)設定： iTerm 2](https://medium.com/nitas-learning-journey/mac%E7%B5%82%E7%AB%AF%E6%A9%9F-terminal-%E8%A8%AD%E5%AE%9A-iterm2-ba63efd0df6a)
